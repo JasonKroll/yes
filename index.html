@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>YES. Youth Elite Sports</title>
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Google Webfont -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var myLatlng = new google.maps.LatLng(-21.1440514,149.0257775);
+        var mapOptions = {
+          center: myLatlng,
+          zoom: 14,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'YES Training'
+        });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <nav>
+        <ul class="h-list right">
+            <li><a href="#about" title="">About Us</a></li>
+            <li><a href="#contact" title="">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 logo">
+          <img src="images/yes_trans.jpg" alt="YES Training" class="center-block" width="300" width="280">
+        </div>
+        <div class="center-block">
+          <h2 class="center-text">YOUTH ELITE SPORTS</h2>
+        </div>
+        <div class="container-small">
+          <div class="summary">
+            <p>Get the training required for you or your child to become an elite or improved sportsperson</p>
+            <p>Become an all-round fitter person</p>
+            <p>All ages welcome with 1 on 1 or group sessions and flexible times</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class="row">
+        <div class="long-block" id="athletic-development">
+          <div class="container">    
+            <h3 class="center-text">Long Term Athletic Development</h3>
+            <p class="center-text">Athletic development training for you or your child</p>
+            <p class="center-text">Non-specific sports training</p>
+            <p class="center-text">Develop strength, speed and agility which is required for most sports.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 service" id="fundamentals">
+          <img src="images/strong_sample.png" alt="" class="center-block">
+          <h3>FUNdamentals</h3>
+          <p>Designed training session for 5-9 years old children</p>
+          <p>Develop coordination along with catching, kicking and balance</p>
+      </div>
+
+      <div class="col-6 service" id="family-fitness">
+          <img src="images/strong_sample.png" alt="" class="center-block">
+          <h3>Family Fun Fitness Session</h3>
+          <p>Designed for the entire family to participate</p>
+          <p>Family bonding, fitness games and drills designed for everyone</p>
+      </div>
+
+      <div class="col-6 service" id="strength-training">
+          <img src="images/strong_sample.png" alt="" class="center-block">
+          <h3>Strength Training</h3>
+          <p>For the developing sportsperson looking to gain Strength and Power</p>
+      </div>
+      <div class="col-6 service" id="speed-training">
+          <img src="images/strong_sample.png" alt="" class="center-block">
+          <h3>Speed and Endurance Training</h3>
+          <p>For the young athlete looking to improve their performance</p>
+      </div>
+
+      <div class="col-6 service" id="bootcamp-sessions">
+          <img src="images/strong_sample.png" alt="" class="center-block">
+          <h3>Bootcamp and H I T sessions</h3>
+          <p>High Intensity Training sessions</p>
+          <p>Planned for all levels of fitness and abilities</p>
+      </div>
+      <div class="col-6 service" id="weightloss-training">
+          <img src="images/strong_sample.png" alt="" class="center-block">
+          <h3>Weight Loss Training</h3>
+          <p>For the person who desires not only to look good, but wants to feel great – results from hard work.</p>
+      </div>
+    </div>
+
+    <div name="about" class="about">
+      <a name="about" title=""></a>
+      <div class="row">
+        <div class="split-col">
+          <div class="container-small">
+            <h3 name="about" class="center-text yes-yellow">Head Coach - Mick Baker</h3>
+            <ul>
+              <li>Level 1 Coach - Australian Strength and Conditioning Association</li>
+              <li>Level 1 Speed and Agility</li>
+              <li>Level 2 Rugby League Coach</li>
+              <li>Mackay Cutters Qld Cup Assistant Coach (2010-2013)</li>
+              <li>NQ Cowboys Junior Development Coach (2002 – 2013)</li>
+              <li>Current Working with Kids Blue Card</li>
+            </ul>
+          </div>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="horizontal-line"></div>
+        <div class="split-col">
+          <div class="container-small">
+            <h3 class="center-text yes-yellow">Facilities</h3>
+            <ul>
+              <li>Gym equipment</li>
+              <li>Athletic sleds</li>
+              <li>Private field and track</li>
+              <li>Hill training</li>
+              <li>Water training</li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <a name="contact" title=""></a>
+      <div class="container-small">
+        <div class="row">
+              <h3 class="center-text">Contact Us</h3>
+                <address class="vcard col-6"> 
+                   <span class="adr"> 
+                      <span class="street-address">28 Pleystowe School Road</span> <br>
+                      <span class="locality">Pleystowe QLD</span >&nbsp;
+                      <span class="postal-code">4741</span > <br>
+                   </span> 
+                   <span class="tel">Tel: 0427 543 664</span> <br>
+                   <a class="email fn" href="mailto:mick@somedomain.com" "email me">Email: mick@somedomain.com</a>
+                    <br>
+                </address>
+                  <div id="map-canvas"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>This is a footer</p>
+    </footer>
+</body>
+</html>
