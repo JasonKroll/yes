@@ -99,6 +99,10 @@ Common
   padding-right: 20px;  
   color: black;
 }
+.service img {
+  height: 108px;
+  width: 108px;
+}
 .contact {
   background-color: #f7f7f7;
   padding-top: 20px;
